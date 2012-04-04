@@ -1,0 +1,31 @@
+My quick and dirty hack for creating a Petition with Wordpress from 2006
+Guy West
+
+
+﻿KPetition theme for WordPress has been deprecated 
+עיצוב וורדפרס זה לא מומלץ להתקנה או לשימוש ונמצא פה לצרכי עיון והיסטוריה. 
+
+
+
+
+
+﻿KPetition theme for WordPress
+גרסה 0.8 בעברית
+עיצוב וורדפרס ליצירת עצומה (Petition) 
+התקנה - חמש דקות
+מערכת KPetition ליצירת עצומה (Petition) בוודפרס. עיצוב וורדפרס המיועד לעצומה אחת בלבד. כדי להתקין יש צורך בהתקנה של WordPress עם בסיס נתונים נקי וחדש. פרטים על התקנת מערכת של WordPress באתר הראשי ובגרסה עברית וורדפרס בעברית. כדי לא להעמיס חתימות על עמוד אחד ניתן להוסיף עוד פוסטים (עמודים). עמוד רשימת החותמים מרכז את כל החתימות בעמוד אחד שניתן להדפסה בהדפסת העצומה. 
+1. פתחו את הקובץ בתיקיה ריקה. 
+2. העלו את הכל למחיצת העיצובים שלכם: wp-content/themes/. 
+3. הפעילו את העיצוב. wp-content\themes\kpetition 
+4. צרו עמוד וקראו לו רשימת החותמים. בPage Template את List Signatures ובחרו בו. 
+5. צרו עמוד וקראו לו הדפסת העצומה. בPage Template את Print Petition ובחרו בו. 
+שלחו לי הצעות והערות.
+
+בהצלחה,
+גיא ווסט
+Creative Commons
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 1.0 License. 
+
+גרסא ראשונה: אוגוסט 2006
+מסמך זה עודכן: אפריל 2012
