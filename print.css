@@ -1,0 +1,139 @@
+/* Print CSS To Print make a printer friendly copy of the page
+
+For WP, I had to add 
+
+<link rel="stylesheet" type="text/css" media="print" href="<?php echo get_settings('siteurl'); ?>/print.css" /> 
+
+in my header.php to get this to work. For a non-WP site, it would still need to be in the headers. 
+
+Place this in the root directory of the site. Unfortunately, I came up with this on the fly. I do not know much about CSS other than changing variables and tweaking and the very basics, so I really can't make any claims or guarantee this will work for you - nor can I support it :(
+
+Usage: Use this against your style.css sheet and replace or add or delete what you do or do not need. For example, if your menu is called #menu1 in your CSS sheet then you would replace #menu with #menu1 on here. And if you want the comments to print, then add the color attribute and take out "none" in the #commentlist (or whatever yours relates too). 
+
+The best thing I can say is play around with it and try new things. You can always delete the print.css if you get it all out of whack. It might take a few tries to get it just right for what you want to print.
+
+This version will NOT give you a print preview on the screen. It WILL show what it will look like by going to the print preview - File Print / Preview for most browsers .
+
+Good luck, and enjoy
+
+Erica
+aleeya@aleeya.net
+http://www.aleeya.net - Before There was a Geekette, there Was a Girl.
+http://www.girlgeekette.net - Where the Girl Ends and the Geekette Begins.
+*/
+
+/* Hebrew modification
+Guy West
+http://www.cybered.org/
+*/
+
+a {
+color: #000080;
+font-weight: normal;
+text-decoration: none;
+}
+
+a:hover {
+color: #000080;
+font-weight: normal;
+text-decoration: none;
+}
+
+body {
+font-family: Arial, Sans-serif;
+font-size: 14pt;
+direction: rtl;
+unicode-bidi: embed;
+}
+
+#content {
+margin: 0px;
+padding: 0px;
+width: auto;
+direction: rtl;
+unicode-bidi: embed;
+}
+
+#header, h2 {
+font-size: 1.1em;
+border: none;
+margin: 0px;
+padding: 10px;
+width: auto;
+}
+
+#header, h3, h4, .storytitle {
+font-size: 1.5em;
+font-variant: small-caps;
+border: none;
+text-align: center;
+font-weight: bold;
+margin: 0px;
+padding: 0px;
+width: auto;
+border: 1px solid;
+}
+
+#main {
+display: none;
+}
+
+#menu {
+display: none;
+}
+
+#right_block {
+display: none;
+}
+
+#left_block {
+display: none;
+}
+
+#recentcomments {
+display: none;
+}
+
+#recentCommentsTitle {
+display: none;
+}
+
+#postmetadata {
+display: none;
+}
+
+#input {
+display: none;
+}
+
+#morepost {
+display: none;
+}
+
+#entrytext {
+display: none;
+}
+
+#related_posts {
+display: none;
+}
+
+#navigation {
+display: none;
+}
+
+#commentlist {
+display: none;
+}
+
+#respond {
+display: none;
+}
+
+#commentform {
+display: none;
+}
+
+#comment {
+display: none;
+}
